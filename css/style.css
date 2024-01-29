@@ -1,0 +1,128 @@
+html{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 800;
+
+
+}
+body{
+    overflow-y: hidden;
+}
+.my-inputt{
+    background-color: #F9F6F6;
+}
+.hh-100{
+    height: 100vh;
+}
+.w-85{
+    width: 90%;
+}
+.whi-color{
+    color: #F9F6F6;
+}
+.concated-colors{
+    color:  RGB(5, 81, 96);
+    background-color: RGB(207, 244, 252);
+    margin: 8px;
+    padding: 4px;
+}
+.red-txt{
+    color: rgb(153, 25, 25) !important;
+}
+li{
+    list-style: none;
+}
+i,li,img,.my-pics{
+    cursor: pointer;
+}
+.my-search{
+    z-index: 2004 !important;
+    position: relative;
+}
+#Search-Name{
+    z-index: 99999;
+}
+#Search-Letter{
+    z-index: 99999;
+}   
+
+.my-input{
+    background-color: transparent;
+    color: #FFFFFF !important;
+}
+.my-input::placeholder{
+    color: #726e6e !important;
+}
+.my-input:focus{
+    background-color: transparent;
+}
+
+.loading{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: #000;
+    z-index: 2010;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:  #F9F6F6;
+}
+.left-nav{
+
+    background-color: RGB(13, 13, 13);
+    color: RGB(249, 246, 246);
+
+}
+.right-nav{
+
+    width: 65px;
+    background-color: RGB(255, 255, 255);
+    color: RGB(0, 0, 0);
+
+}
+.nav-logo img{
+width: 80%;
+}
+.open-close-icon{
+    font-size: 2rem;
+    font-weight: 900;
+
+
+}
+
+.main-nav{
+    position: fixed;
+    left: -256.562px;
+    top: 0;
+    bottom: 0;
+    background-color: red;
+    z-index: 2004;
+}
+
+.my-list>li{
+    top: 300px;
+}
+
+/* first**/
+.my-pics:hover .my-imgCover{
+    top: 0;
+}
+.my-imgCover{
+    width: 100%;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.7);
+    top: 100%;
+    left: 0;
+    transition: 0.5s;
+}
+.my-areas{
+    color: #F9F6F6;
+}
+.error-inputt{
+    color: #842029;
+    background-color:RGB(248, 215, 218);
+
+}
